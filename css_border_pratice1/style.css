@@ -1,0 +1,17 @@
+    p, ul{
+    border : 2px dashed purple; /*dashed 虛線 solid 實線*/
+    padding: .5em;
+    }
+    .block, li{
+    border:2px solid blue;
+    padding: .5em;
+    }
+    ul{
+    display: flex;
+    list-style: none;
+    }
+    li{margin:0px 10px;
+    }
+    .block{/*改變最後一個<p>部分(block)的顯示方式*/
+    display: block;
+    }

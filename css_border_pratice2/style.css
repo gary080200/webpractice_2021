@@ -1,0 +1,21 @@
+div{
+    border:2px solid black;
+    margin: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+#BoxMargin{/*id對應#字調用*/
+    border:2px dashed black;
+}
+#BoxContent{
+    border:2px dashed black;
+    padding-bottom: 100px;
+}
+#BoxBorder{
+    background-color: yellow;
+}
+#BoxPadding{/*用白色覆蓋過去*/
+    background-color: white;
+}
